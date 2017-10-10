@@ -2,4 +2,4 @@
 **Autor**: £ukasz Szymborski
 
 ## Opis projektu:
-Projekt na zajêcia o nazwie "Programy u¿ytkowe". :P
+Projekt na zajêcia o nazwie "Programy u¿ytkowe".
