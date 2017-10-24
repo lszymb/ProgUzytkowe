@@ -1,0 +1,67 @@
+﻿\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+
+\title{Wzory matematyczne}
+\author{Łukasz Szymborski}
+\date{24 października 2017}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Dokument zawiera wzory ćwiczeniowe do zrozumienia jak robić formuły matematyczne w LaTeXie. Reszta zadań: https://github.com/lukzmu/university-pu 
+\end{abstract}
+
+\section{Ćwiczenie 3 - wzory matematyczne}
+
+\begin{equation}
+%
+\lim_{n \to \infty}
+\sum_{k=1}^n \frac{1}{k^2}
+= \frac{\pi^2}{6} 
+%
+\end{equation}
+\begin{equation}
+%
+\prod_{i=2}^{n=i^2}
+= \frac{\lim^{n \to 4}(1+ \frac{1}{n})^n}{\sum k(\frac{1}{n})}
+%
+\end{equation}
+
+Łatwo równanie (1) jest doprowadzić do (2)
+
+\begin{equation}
+%
+\int_{2}^{\infty} \frac{1}{\log_{2}x}dx
+= \frac{1}{x}sinx = 1 - cos^2(x)
+%
+\end{equation}
+\begin{equation}
+%
+\left[ \begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1K} \\
+a_{21} & a_{22} & \ldots & a_{2K} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{K1} & a_{K2} & \ldots & a_{KK}
+\end{array} \right] * 
+\left[ \begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{K} 
+\end{array} \right] =
+\left[ \begin{array}{c}
+b_{1} \\
+b_{2} \\
+\vdots \\
+b_{K}
+\end{array} \right]
+%
+\end{equation}
+\begin{equation}
+%
+(a_{1}=a_{1}(x)) \wedge (a_{2}=a_{2}(x)) \wedge \ldots \wedge (a_{k}=a_{k}(x)) \twoheadrightarrow (d=d(u))
+%
+\end{equation}
+
+\end{document}
