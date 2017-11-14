@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{lscape}
+\usepackage{timetable}
+
+%opening
+\title{Bibliografia i plan}
+\author{Łukasz Szymborski}
+\date{14 listopada 2017}
+
+\begin{document}
+%
+\maketitle
+
+\begin{abstract}
+Dokument do ćwiczeń z bibliografii i planu zajęć.
+\end{abstract}
+%
+\begin{thebibliography}{99}
+\bibitem{} D.~Brown: \textit{Cyfrowa Twierdza} (1998).
+\bibitem{} D.~Brown: \textit{Anioły i demony} (2000).
+\bibitem{} D.~Brown: \textit{Zwodniczy punkt} (2001).
+\bibitem{} D.~Brown: \textit{Kod Leonarda da Vinci} (2003).
+\bibitem{} D.~Brown: \textit{Zaginiony symbol} (2009).
+\bibitem{} D.~Brown: \textit{Inferno} (2013).
+\bibitem{} D.~Brown: \textit{Początek} (2017).
+\end{thebibliography}
+%
+\begin{landscape}
+%
+\setslotsize{2.8cm}{0.3cm}
+\setslotcount {5} {36}
+\settopheight{3}
+\settextframe{0.8mm}
+%
+\defineevent{corelecture}{0.0} {0.28}{1.0} {1.0}{1.0}{1.0}
+\defineevent{seminar}    {1.0} {0.4} {0.2} {1.0}{1.0}{1.0}
+\defineevent{langcourse} {1.0} {0.4} {0.2} {1.0}{1.0}{1.0}
+\defineevent{tutorial}   {0.6} {0.8} {1.0} {1.0}{1.0}{1.0}
+\defineevent{work} {0.21}{0.5} {0.16}{1.0}{1.0}{1.0}
+%
+\begin{timetable}
+\hours{9}{15}{1}
+\englishdays{1}
+\event 1 {1130} {1345} {Elementy algebry i geometrii analitycznej} {Śmiarowska} {A1/7} {work}
+\event 2 {900} {1115} {Programy uzytkowe} {Denisiuk} {E0/14} {work}
+\event 2 {1330} {1545} {Bazy danych} {Drozda} {D2/15} {work}
+\event 2 {1630} {1800} {Wstep do programowania} {Szypulski} {A3/17} {work}
+%
+\end{timetable}
+\end{landscape}
+\end{document}
